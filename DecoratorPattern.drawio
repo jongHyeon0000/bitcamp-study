@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T01:01:37.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="E4suE5kFV7_LpDElim09" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T02:36:18.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RosfxJz66DF8QOh4dS_7" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -23,6 +23,23 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="620" y="310" as="sourcePoint" />
             <mxPoint x="360" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-fkSKhn9x-vA-FJNlj-T-0" value="&lt;b&gt;ConcreteDecoratorA&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;hr style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ operation()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=default;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-fkSKhn9x-vA-FJNlj-T-1" value="&lt;b&gt;ConcreteDecoratorB&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;hr style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ operation()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=default;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-fkSKhn9x-vA-FJNlj-T-3" value="Component" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.8571" y="-10" relative="1" as="geometry">
+            <mxPoint x="640" y="200" as="sourcePoint" />
+            <mxPoint x="480" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="200" />
+              <mxPoint x="640" y="80" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
