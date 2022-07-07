@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2022-07-07T01:01:37.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="E4suE5kFV7_LpDElim09" version="20.0.4" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="uQw0O3kQGbf5w6A5wC6w-17" value="&lt;b&gt;Component&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;hr style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ operation()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=default;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="240" y="40" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uQw0O3kQGbf5w6A5wC6w-20" value="&lt;b&gt;ConcreteComponent&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;hr style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ operation()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=default;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="80" y="200" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uQw0O3kQGbf5w6A5wC6w-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uQw0O3kQGbf5w6A5wC6w-20" target="uQw0O3kQGbf5w6A5wC6w-17" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="330" as="sourcePoint" />
+            <mxPoint x="780" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uQw0O3kQGbf5w6A5wC6w-23" value="&lt;b&gt;ComponentDecorator&lt;br&gt;&lt;/b&gt;&lt;hr&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;- componentDecorator : Component&lt;/font&gt;&lt;br&gt;&lt;hr style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;- ComponentDecorator(component component)&lt;br&gt;+ operation()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=default;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="400" y="200" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uQw0O3kQGbf5w6A5wC6w-24" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uQw0O3kQGbf5w6A5wC6w-23" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="310" as="sourcePoint" />
+            <mxPoint x="360" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
